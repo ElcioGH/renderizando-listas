@@ -13,7 +13,7 @@ export class ExemploServicos2Component {
   constructor(public logger: LoggerService){}
 
  adicionarProduto(){
-  this.logger.logar(`O produto com descrição ${this.descricao} foi adicionado`);
+  this.logger.logar(`O produto com a descrição ${this.descricao} foi adicionado`);
 
  }
 
